@@ -6,7 +6,10 @@ import { AddProduct } from './actions';
 import { RemoveProduct } from './actions';
 
 
-const Card = ({products,AddProduct,RemoveProduct}) => {
+
+
+
+const Cards = ({products,AddProduct,RemoveProduct}) => {
 const[item,setItem] =useState("");
 const submitHandler = async (e) => {
     e.preventDefault();
